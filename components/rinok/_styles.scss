@@ -1,0 +1,653 @@
+.walletpage{
+  background: #f8f9fc;
+}
+.nav-menu,.sub-nav{
+  background: #FFF
+}
+
+.wallet {
+  width: 100%;
+  padding: 30px 16px 30px;
+  background: #f8f9fc;
+  .wallet-cont {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    .ant-pagination-options{
+      display: none
+    }
+    .ant-pagination{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 34px;
+      padding: 20px;
+      background: #FFF;
+      border: 2px solid #DFDFDF;
+    }
+    .ant-tabs-tab{
+      .ant-tabs-tab-btn{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 27px;
+        line-height: 33px;
+        color: #9DA2A4;
+      }
+    }
+    .ant-tabs-tab-active{
+      .ant-tabs-tab-btn{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 27px;
+        line-height: 33px;
+        color: #2D9778;
+
+      }
+    }
+    .ant-tabs-ink-bar{
+      background: #2D9778;
+    }
+    .wallet-cont-title{
+      margin-top: 20px;
+      width: 100%;
+      margin-bottom: 35px;
+      h2{
+        display: block;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 39px;
+        margin-bottom: 14px;
+        color: #464649;
+      }
+      a{
+        display: block;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 20px;
+        text-decoration-line: underline;
+        color: #64AAC8;
+      }
+    }
+    .wallet-cont-flex-requests{
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 30px;
+      .wallet-cont-flex-requests-item{
+        border: 2px solid #DFDFDF;
+        background: #FFF;
+        padding: 26px 16px;
+        position: relative;
+        .price{
+          max-width: 210px;
+          width: 100%;
+          margin: 0 auto 14px;
+          font-family: Helvetica;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 23px;
+          color: #5DA1BF;
+        }
+        .wallet-cont-flex-requests-itembottom{
+          max-width: 210px;
+          width: 100%;
+          margin: 0 auto;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          p{
+            font-family: Helvetica;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 20px;
+            color: #000000;
+            margin: 0
+          }
+          span{
+            font-family: Helvetica;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 18px;
+            color: #464649;
+          }
+        }
+      }
+    }
+    .wallet-cont-flex-withdraw {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 30px;
+      .wallet-cont-flex-item {
+        border: 2px solid #DFDFDF;
+        background: #FFF;
+        padding: 60px 16px 30px;
+        position: relative;
+        .bgtext{
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          max-width: 210px;
+          width: 100%;
+          top: 12px;
+          font-family: Helvetica;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 57px;
+          line-height: 66px;
+          color: #EEEEEE;
+        }
+        .price{
+          max-width: 210px;
+          width: 100%;
+          margin: 0 auto 15px;
+          font-family: Helvetica;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 23px;
+          position: relative;
+          z-index: 2;
+          color: #5DA1BF;
+        }
+        .wallet-cont-flex-item-central{
+          position: relative;
+          z-index: 2;
+          display: flex;
+          max-width: 210px;
+          width: 100%;
+          margin: 0 auto;
+          justify-content: space-between;
+          align-items: center;
+          span{
+            font-family: Helvetica;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 18px;
+            color: #000000;
+          }
+        }
+        a{
+          display: flex;
+          max-width: 210px;
+          width: 100%;
+          margin: 20px auto 0;
+          height: 52px;
+          justify-content: center;
+          align-items: center;
+          font-family: Helvetica;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 23px;
+          color: #FEFEFE;
+          background: #599DBB;
+          transition: all 0.5s;
+          &:hover{
+            background: #327492
+          }
+        }
+      }
+    }
+    .wallet-cont-setings{
+      background: #FFF;
+      border: 2px solid #DFDFDF;
+      padding: 30px;
+      p{
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 20px;
+        margin-bottom: 35px;
+        color: #000000;
+      }
+      .wallet-cont-flex-setings-item{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 20px;
+        &:last-child{
+          margin-bottom: 0
+        }
+        p{
+          margin: 0
+        }
+        .valyut{
+          font-family: Helvetica;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 37px;
+          line-height: 43px;
+          color: #EEEEEE;
+          max-width: 200px;
+          width: 100%;
+        }
+        .wallet-cont-flex-setings-item-right{
+          max-width: 754px;
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-left: 10px;
+          .wallet-cont-flex-setings-item-right-box{
+            max-width: 368px;
+            width: 100%;
+            &:first-child{
+              margin-right: 10px;
+            }
+            span{
+              font-family: Helvetica;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 17px;
+              line-height: 20px;
+              color: #14906C;
+            }
+            p{
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 0 20px;
+              height: 54px;
+              width: 100%;
+              border: 2px solid #DFDFDF;
+              background: #FFF;
+              font-family: Helvetica;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 17px;
+              line-height: 20px;
+              margin-top: 15px;
+              color: #000000;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.walletrin{
+  .tokens-tab{
+    padding: 0!important
+  }
+}
+
+.wallet{
+  .tokens-tab{
+    .tokens-tab-cont{
+      .tokens-tab-cont-title{
+        .tokens-tab-cont-title-left{
+          max-width: 600px;
+        }
+        .tokens-tab-cont-title-right{
+          max-width: 530px;
+        }
+      }
+      .tokens-tab-cont-table{
+        table{
+          .tantitletr{
+            td{
+              &:nth-child(1){
+                padding-left: 30px;
+                width: 162px ;
+                p{
+                  max-width: 150px ;
+                }
+              }
+              &:nth-child(2){
+                width: 134px ;
+                p{
+                  max-width: 140px;
+                }
+              }
+              &:nth-child(3){
+                width: 92px ;
+                p{
+                  max-width: 180px;
+                }
+              }
+              &:nth-child(4){
+                width: 180px ;
+                p{
+                  max-width: 180px;
+                }
+              }
+              &:nth-child(5){
+                width: 400px ;
+              }
+              &:nth-child(6){
+                display: none;
+              }
+            }
+          }
+          .tabitemtr{
+            td{
+              a{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 46px;
+                background: #599DBB;
+                font-family: Helvetica;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 21px;
+                color: #FEFEFE;
+                &:nth-child(2){
+                  margin-left: 10px;
+                  background: #4BB496;
+                }
+              }
+              &:nth-child(1){
+                padding-left: 30px;
+                width: 214px ;
+              }
+              &:nth-child(2){
+                width: 139px ;
+              }
+              &:nth-child(3){
+                width: 155px ;
+              }
+              &:nth-child(4){
+                width: 95px ;
+              }
+              &:nth-child(5){
+                width: 400px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+              }
+              &:nth-child(6){
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.wallet .tokens-tab2 .tokens-tab-cont .tokens-tab-cont-title .tokens-tab-cont-title-left{
+  max-width: 700px
+}
+.wallet .tokens-tab2 .tokens-tab-cont .tokens-tab-cont-title .tokens-tab-cont-title-right {
+    max-width: 182px;
+    img{
+      margin-left: 0;
+      margin-right: 5px
+    }
+}
+@media (max-width: 900px) {
+  .wallet {
+    .wallet-cont {
+      .ant-tabs-tab{
+        .ant-tabs-tab-btn{
+          font-size: 20px;
+          line-height: 24px;
+        }
+      }
+      .ant-tabs-tab-active{
+        .ant-tabs-tab-btn{
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 26px;
+
+        }
+      }
+      .wallet-cont-title{
+        h2{
+          display: block;
+          text-align: center;
+          width: 100%
+        }
+        a{
+          display: block;
+          text-align: center;
+          width: 100%
+        }
+      }
+      .wallet-cont-flex-requests{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+        .wallet-cont-flex-requests-item{
+          padding: 26px 16px;
+          .price{
+            max-width: 210px;
+            margin: 0 auto 14px;
+            font-size: 20px;
+            line-height: 23px;
+          }
+          .wallet-cont-flex-requests-itembottom{
+            max-width: 210px;
+            p{
+              font-size: 17px;
+              line-height: 20px;
+            }
+            span{
+              font-size: 16px;
+              line-height: 18px;
+            }
+          }
+        }
+      }
+      .wallet-cont-flex-withdraw {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+        .wallet-cont-flex-item {
+          padding: 60px 16px 30px;
+          .bgtext{
+            left: 50%;
+            transform: translateX(-50%);
+            max-width: 210px;
+            top: 12px;
+            font-size: 57px;
+            line-height: 66px;
+          }
+          .price{
+            max-width: 210px;
+            margin: 0 auto 15px;
+            font-size: 20px;
+            line-height: 23px;
+          }
+          .wallet-cont-flex-item-central{
+            max-width: 210px;
+            span{
+              font-size: 16px;
+              line-height: 18px;
+            }
+          }
+          a{
+            max-width: 210px;
+            margin: 20px auto 0;
+            height: 52px;
+            font-size: 20px;
+            line-height: 23px;
+          }
+        }
+      }
+      .wallet-cont-setings{
+        padding: 30px;
+        p{
+          font-size: 17px;
+          line-height: 20px;
+          margin-bottom: 35px;
+        }
+        .wallet-cont-flex-setings-item{
+          margin-bottom: 20px;
+          flex-direction: column;
+          align-items: flex-start;
+          .valyut{
+            font-size: 37px;
+            margin-bottom: 20px;
+            line-height: 43px;
+            max-width: 200px;
+          }
+          .wallet-cont-flex-setings-item-right{
+            max-width: 754px;
+            margin-left: 0;
+            .wallet-cont-flex-setings-item-right-box{
+              max-width: 368px;
+              span{
+                font-size: 17px;
+                line-height: 20px;
+              }
+              p{
+                padding: 0 20px;
+                height: 54px;
+                font-size: 17px;
+                line-height: 20px;
+                margin-top: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 583px) {
+  .wallet {
+    .wallet-cont {
+      .ant-tabs-tab{
+        .ant-tabs-tab-btn{
+          font-size: 20px;
+          line-height: 24px;
+        }
+      }
+      .ant-tabs-tab-active{
+        .ant-tabs-tab-btn{
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 26px;
+
+        }
+      }
+      .wallet-cont-title{
+        h2{
+          display: block;
+          text-align: center;
+          width: 100%
+        }
+        a{
+          display: block;
+          text-align: center;
+          width: 100%
+        }
+      }
+      .wallet-cont-flex-requests{
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+        .wallet-cont-flex-requests-item{
+          padding: 26px 16px;
+          .price{
+            max-width: 210px;
+            margin: 0 auto 14px;
+            font-size: 20px;
+            line-height: 23px;
+          }
+          .wallet-cont-flex-requests-itembottom{
+            max-width: 210px;
+            p{
+              font-size: 17px;
+              line-height: 20px;
+            }
+            span{
+              font-size: 16px;
+              line-height: 18px;
+            }
+          }
+        }
+      }
+      .wallet-cont-flex-withdraw {
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+        .wallet-cont-flex-item {
+          padding: 60px 16px 30px;
+          .bgtext{
+            left: 50%;
+            transform: translateX(-50%);
+            max-width: 210px;
+            top: 12px;
+            font-size: 57px;
+            line-height: 66px;
+          }
+          .price{
+            max-width: 210px;
+            margin: 0 auto 15px;
+            font-size: 20px;
+            line-height: 23px;
+          }
+          .wallet-cont-flex-item-central{
+            max-width: 210px;
+            span{
+              font-size: 16px;
+              line-height: 18px;
+            }
+          }
+          a{
+            max-width: 210px;
+            margin: 20px auto 0;
+            height: 52px;
+            font-size: 20px;
+            line-height: 23px;
+          }
+        }
+      }
+      .wallet-cont-setings{
+        padding: 30px 16px;
+        p{
+          font-size: 17px;
+          line-height: 20px;
+          margin-bottom: 35px;
+        }
+        .wallet-cont-flex-setings-item{
+          margin-bottom: 20px;
+          flex-direction: column;
+          align-items: flex-start;
+          .valyut{
+            font-size: 37px;
+            margin-bottom: 20px;
+            line-height: 43px;
+            max-width: 200px;
+          }
+          .wallet-cont-flex-setings-item-right{
+            max-width: 754px;
+            margin-left: 0;
+            flex-direction: column;
+            align-items: flex-start;
+            .wallet-cont-flex-setings-item-right-box{
+              max-width: 368px;
+              &:first-child{
+                margin: 0 0 15px
+              }
+              span{
+                font-size: 17px;
+                line-height: 20px;
+              }
+              p{
+                padding: 0 10px;
+                height: 40px;
+                font-size: 14px;
+                line-height: 18px;
+                margin-top: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

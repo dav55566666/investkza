@@ -1,0 +1,41 @@
+.nails__heading {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 32px;
+    color: #464649;
+    margin-top: 40px;
+    margin-bottom: 16px;
+    }
+    .nails__infolink {
+        font-family: 'Helvetica', sans-serif;
+        font-size: 17px;
+        text-decoration: underline;
+        color: #64AAC8;
+        margin-bottom: 30px;
+    }
+    .nails__wrapper {
+        display: flex;
+        justify-content: space-between;
+        .nails__items {
+            display: flex;
+            justify-content: space-between;
+        }
+}
+
+@media (max-width: 768px) {
+    .nails__wrapper {
+        display: flex;
+        justify-content: center;
+        .nails__items {
+            display: block;
+        }
+    }
+}
+@media (max-width: 320px) {
+    .nails__wrapper {
+        display: block;
+        justify-content: center;
+        .nails__items {
+            display: block;
+        }
+    }
+}

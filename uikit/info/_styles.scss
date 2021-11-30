@@ -1,0 +1,36 @@
+.info {
+    width: 50%;
+    position: relative;
+    padding-top: 40px;
+    @media screen and (max-width: 450px) {
+        width: 100%;
+    }
+    h6 {
+        font-family: "Helvetica";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 23px;
+        color: #5da1bf;
+        position: relative;
+        z-index: 1;
+    }
+    p {
+        font-family: "Helvetica";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+    }
+    .year {
+        font-family: "Helvetica";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 57px;
+        line-height: 66px;
+        color: #eeeeee;
+        position: absolute;
+        top: 0;
+    }
+}

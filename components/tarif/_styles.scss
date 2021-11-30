@@ -1,0 +1,193 @@
+.tarif{
+  width: 100%;
+  padding: 32px 16px 60px;
+  background: #F8F8F8;
+  .tarif-cont{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    .tarif-cont-title{
+      width: 100%;
+      margin-bottom: 15px;
+      h1{
+        margin-bottom: 15px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 39px;
+        color: #464649;
+      }
+      p{
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 26px;
+
+        color: #000000;
+
+      }
+    }
+    .tarif-cont-flex{
+      width: 100%;
+      .tarif-cont-flex-item{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        background: #FFF;
+        border: 1px solid #DFDFDF;
+        margin-bottom: 30px;
+        .tarif-cont-flex-item-img{
+          max-width: 300px;
+          width: 100%;
+          border-right: 1px solid #DFDFDF;
+          padding: 50px;
+          img{
+            max-width: 46px;
+            width: 100%;
+          }
+          p{
+            margin-top: 15px;
+            max-width: 135px;
+            font-family: Helvetica;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 23px;
+            color: #464649;
+          }
+        }
+        .tarif-cont-flex-item-right{
+          max-width: 870px;
+          width: 100%;
+          padding: 50px 16px 0;
+          .tarif-cont-flex-item-right-line{
+            width: 100%;
+            max-width: 770px;
+            margin: 0 auto 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            .tarif-cont-flex-item-right-line-first{
+              max-width: 385px;
+              width: 100%;
+              p{
+                font-family: Helvetica;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 23px;
+                margin-bottom: 10px;
+                color: #000000;
+              }
+              a{
+                font-family: Helvetica;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 21px;
+                display: block;
+                margin-bottom: 10px;
+                color: #5DA1BF;
+              }
+              span{
+                font-family: Helvetica;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                color: #6F787E;
+              }
+            }
+            .tarif-cont-flex-item-right-line-last{
+              max-width: 325px;
+              width: 100%;
+              span{
+                font-family: Helvetica;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 24px;
+
+                    color: #6F787E;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media(max-width: 960px){
+  .tarif{
+    .tarif-cont{
+      .tarif-cont-title{
+        h1{
+          font-size: 26px;
+          line-height: 32px;
+        }
+        p{
+          font-size: 14px;
+          line-height: 20px;
+        }
+      }
+      .tarif-cont-flex{
+        .tarif-cont-flex-item{
+          margin-bottom: 30px;
+          flex-direction: column;
+          align-items: flex-start;
+          .tarif-cont-flex-item-img{
+            max-width: unset;
+            border-right: unset;
+            padding: 50px 16px;
+            img{
+              max-width: 46px;
+            }
+            p{
+              margin-top: 15px;
+              max-width: 145px;
+              font-size: 20px;
+              line-height: 23px;
+            }
+          }
+          .tarif-cont-flex-item-right{
+            max-width: 870px;
+            padding: 50px 16px 0;
+            .tarif-cont-flex-item-right-line{
+              max-width: 770px;
+              margin: 0 auto 20px;
+              flex-direction: column;
+              align-items: flex-start;
+              .tarif-cont-flex-item-right-line-first{
+                max-width: 385px;
+                p{
+                  font-size: 16px;
+                  line-height: 23px;
+                  margin-bottom: 10px;
+                }
+                a{
+                  font-size: 18px;
+                  line-height: 21px;
+                  margin-bottom: 10px;
+                }
+                span{
+                  font-size: 14px;
+                  line-height: 16px;
+                }
+              }
+              .tarif-cont-flex-item-right-line-last{
+                max-width: 325px;
+                span{
+                  font-size: 16px;
+                  line-height: 24px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

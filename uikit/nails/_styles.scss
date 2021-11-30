@@ -1,0 +1,92 @@
+.nailsBody{
+    margin-top: 100px;
+    .nailsImg{
+        margin: 43px 13px 41px 22px;
+    }    
+    .nailsText{
+        border-top: 1px solid #E2E2E2;
+    }
+    .nails{
+        border: 1px solid #E2E2E2;
+        width: 269px;
+        margin-bottom: 29px;
+    }
+    .nailTextTitle{
+        margin: 29px 43px 41px 44px;
+        text-align: center;
+    }
+    .nailsTextBereg{
+        color: #424C4E;
+    }
+    .nailsTextCleanBeach{
+        color: #14906C;
+    }
+    .naiilp{
+        font-size: 18px;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 21px;
+    }
+    .nailsTextRail{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 13px 20px 18px 29px;
+        font-weight: normal;
+    }
+    .nailsTextEdit{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px 19px 39px 29px;
+    }
+    .nailpercent{
+        color: #61A7C5;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .nailsBody{
+        margin-top: 100px;
+        .nailsImg{
+            margin: 41px 48px 41px 57px;
+        }    
+        .nails{
+            border: 1px solid #E2E2E2;
+            width: 339px;
+            margin-bottom: 29px;
+        }
+        .nailsTextRail{
+            font-weight: bold;
+        }
+        .nailsTextEdit{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0px 19px 35px 29px;
+        }
+    }
+}
+@media (max-width: 320px) {
+    .nailsBody{
+        margin-top: 100px;
+        .nailsImg{
+            margin: 44px 24px 40px 24px;
+        }    
+        .nails{
+            border: 1px solid #E2E2E2;
+            width: 282px;
+            margin-bottom: 29px;
+        }
+        .nailsTextRail{
+            font-weight: bold;
+        }
+        .nailsTextEdit{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0px 19px 35px 29px;
+        }
+    }
+}

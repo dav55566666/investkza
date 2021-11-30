@@ -1,0 +1,121 @@
+.marketonline {
+  width: 100%;
+  padding: 30px 16px 30px;
+  background: #f8f9fc;
+  .marketonline-cont {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    .marketonline-cont-flex {
+      width: 100%;
+      .marketonline-cont-flex-item {
+        padding: 0;
+        background: #fff;
+        border: 2px solid #dfdfdf;
+        display: flex;
+        justify-content: flex-start;
+        align-items: stretch;
+        .marketonline-cont-flex-item-img {
+          max-width: 230px;
+          width: 100%;
+          padding: 20px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-right: 2px solid #dfdfdf;
+          img {
+            max-width: 144px;
+            width: 100%;
+          }
+        }
+        .marketonline-cont-flex-item-text {
+          max-width: 791px;
+          width: 100%;
+          padding: 30px;
+          .marketonline-cont-flex-item-link {
+            a {
+              font-family: Helvetica;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 17px;
+              line-height: 20px;
+              color: #5ea1bf;
+            }
+          }
+          .marketonline-cont-flex-item-info {
+            width: 100%;
+            margin-bottom: 12px;
+            h4 {
+              font-family: Montserrat;
+              font-style: normal;
+              font-weight: bold;
+              font-size: 22px;
+              line-height: 27px;
+              margin-bottom: 12px;
+              color: #48484a;
+            }
+            p {
+              font-family: Helvetica;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 16px;
+              line-height: 23px;
+              color: #000000;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 583px) {
+  .marketonline {
+    .marketonline-cont {
+      .marketonline-cont-flex {
+        .marketonline-cont-flex-item {
+          justify-content: center;
+          flex-wrap: wrap;
+          .marketonline-cont-flex-item-img {
+            margin: 0;
+            border: unset;
+            padding: 46px 16px 33px;
+            img {
+              max-width: 144px;
+            }
+          }
+          .marketonline-cont-flex-item-text {
+            padding: 0 20px 30px;
+            .marketonline-cont-flex-item-title {
+              margin-bottom: 14px;
+              a {
+                font-size: 20px;
+                line-height: 23px;
+                margin-right: 12px;
+              }
+              span {
+                font-size: 15px;
+                line-height: 17px;
+              }
+            }
+            .marketonline-cont-flex-item-info {
+              margin-bottom: 14px;
+              p {
+                font-size: 16px;
+                line-height: 23px;
+              }
+            }
+            .marketonline-cont-flex-item_heshtag {
+              max-width: 230px;
+              a {
+                padding: 5px;
+                font-size: 12px;
+                line-height: 14px;
+                margin-bottom: 9px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

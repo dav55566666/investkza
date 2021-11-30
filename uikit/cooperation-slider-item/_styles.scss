@@ -1,0 +1,36 @@
+.cooperation-slider-item {
+    width: 270px;
+    height: 220px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    position: relative;
+    &:hover {
+        border: 1px solid #69c1fc;
+    }
+    div {
+        height: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    p {
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        color: #000000;
+        // padding-top: 15px;
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .cooperationCarousel .cooperation-slider-item {
+        width: auto;
+        max-width: none!important;
+    }
+}

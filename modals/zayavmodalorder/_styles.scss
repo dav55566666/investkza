@@ -1,0 +1,126 @@
+.zayavmodalorder{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  background: rgba(0,0,0,0.57);
+  z-index: 20;
+  display: none;
+  &::-webkit-scrollbar{
+    width: 0
+  }
+  .zayavmodalorder-cont{
+    position: relative;
+    margin: 80px auto;
+    max-width: 854px;
+    width: 100%;
+    background: #FFF;
+    .clousmodal{
+      position: absolute;
+      background-color: unset;
+      border: unset;
+      background-image: url("/img/btnclous.png");
+      width: 37px;
+      height: 48px;
+      top: -5px;
+      cursor: pointer;
+      right: 30px;
+    }
+    h3{
+      color: #464649;
+      font-family: Commissioner;
+      font-size: 23px;
+      font-weight: 500;
+      font-style: normal;
+      margin-bottom: 40px;
+      letter-spacing: normal;
+      line-height: 30px;
+    }
+    .zayavmodalorder-cont-top{
+      padding: 30px;
+      width: 100%;
+      .zayavmodalorder-cont-top-box{
+        width: 100%;
+        .zayavmodalorder-cont-top-box-item{
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 15px 0;
+          border-bottom: 1px solid #E1E1E1;
+          &:first-child{
+            border-top: 1px solid #E1E1E1;
+          }
+          p{
+            color: #1d80aa;
+            font-family: Commissioner;
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 0;
+          }
+          span{
+            color: #424c4e;
+            font-family: Commissioner;
+            font-size: 16px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+    .zayavmodalorder-cont-bottom{
+      width: 100%;
+      padding: 30px;
+      background: #F8F8F8;
+      .zayavmodalorder-cont-bottom-flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .inptext{
+        width: 100%;
+        display: block;
+        margin-bottom: 27px;
+        max-width: 368px;
+        color: #14906c;
+        font-family: Commissioner;
+        font-size: 17px;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 25px;
+        input{
+          width: 100%;
+          height: 54px;
+          border: 1px solid #DFDFDF;
+          padding: 0 20px;
+          font-family: Helvetica;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 18px;
+          color: #48484A;
+          margin-top: 12px;
+        }
+      }
+      .inpbtn{
+        input{
+          width: 181px;
+          height: 54px;
+          color: #fefefe;
+          font-family: Commissioner;
+          font-size: 20px;
+          font-weight: 400;
+          font-style: normal;
+          letter-spacing: normal;
+          line-height: 30px;
+          border: unset;
+          background: #599DBB;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

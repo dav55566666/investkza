@@ -1,0 +1,167 @@
+.referral-program {
+  .title {
+    font-size: 22px;
+    margin: 40px 0 15px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    color: #48484a;
+  }
+  p {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 25px;
+    color: #000000;
+  }
+  .baner {
+    position: relative;
+    img {
+      width: 100%;
+      min-height: 158px;
+      height: 100%;
+      object-fit: cover;
+    }
+    .banner-divs {
+      position: absolute;
+      width: 100%;
+      top: 38px;
+      display: flex;
+      justify-content: space-between;
+      div {
+        margin-left: 93px;
+        z-index: 3;
+        h2 {
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 27px;
+          line-height: 33px;
+          color: #59c2a3;
+        }
+        p {
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 27px;
+          line-height: 33px;
+          color: #ffffff;
+        }
+      }
+      button {
+        background-color: #599dbb;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 23px;
+        color: #fefefe;
+        margin: 17px 43px;
+      }
+    }
+  }
+  .img {
+    margin: 40px 0 52px;
+
+    img {
+      width: 100%;
+    }
+  }
+  @media (max-width: 1100px) {
+    .baner {
+      .banner-divs {
+        div {
+          margin-left: 63px;
+          h2 {
+            font-size: 23px;
+          }
+          p {
+            font-size: 23px;
+          }
+        }
+        button {
+          font-size: 17px;
+        }
+      }
+    }
+  }
+  @media (max-width: 900px) {
+    .baner {
+      .banner-divs {
+        div {
+          margin-left: 63px;
+          margin-top: 10px;
+          h2 {
+            font-size: 18px;
+            line-height: 20px;
+          }
+          p {
+            font-size: 18px;
+            line-height: 20px;
+          }
+        }
+        button {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    .baner {
+      .banner-divs {
+        width: auto;
+        flex-direction: column;
+        top: 4px;
+        div {
+          margin-left: 43px;
+          margin-top: 10px;
+          h2 {
+            font-size: 18px;
+            line-height: 20px;
+          }
+          p {
+            font-size: 18px;
+            line-height: 20px;
+          }
+        }
+        button {
+          font-size: 14px;
+          margin-top: 6px;
+        }
+      }
+    }
+  }
+  @media (max-width: 420px) {
+    .referral-program {
+      p {
+        font-size: 17px;
+      }
+      .baner {
+        padding: 5px;
+        .banner-divs {
+          width: 100%;
+          text-align: center;
+          align-items: center;
+          div {
+            margin-left: 0;
+            margin-top: 15px;
+            h2 {
+              font-size: 18px;
+              line-height: 20px;
+            }
+            p {
+              font-size: 18px;
+              line-height: 20px;
+            }
+          }
+          button {
+            font-size: 14px;
+            margin-top: 6px;
+          }
+        }
+      }
+    }
+  }
+}

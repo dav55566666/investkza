@@ -1,0 +1,215 @@
+.tokennevmodal{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  display: none;
+  background: rgba(0,0,0,0.57);
+  z-index: 20;
+  &::-webkit-scrollbar{
+    width: 0
+  }
+  .tokennevmodal-cont{
+    position: relative;
+    margin: 80px auto;
+    max-width: fit-content;
+    width: 100%;
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    .clousmodal{
+      position: absolute;
+      background-color: unset;
+      border: unset;
+      background-image: url("/img/btnclous.png");
+      width: 37px;
+      height: 48px;
+      top: -5px;
+      cursor: pointer;
+      right: 30px;
+    }
+    h3{
+      color: #464649;
+      font-family: Commissioner;
+      font-size: 23px;
+      font-weight: 500;
+      font-style: normal;
+      margin-bottom: 40px;
+      letter-spacing: normal;
+      line-height: 30px;
+    }
+    .tokennevmodal-cont-top{
+      padding: 30px;
+      max-width: 587px;
+      width: 100%;
+      .tokennevmodal-cont-top-box{
+        width: 100%;
+        padding-bottom: 8px;
+        margin-bottom: 25px;
+        border-bottom: 1px solid #DFDFDF;
+        .tokennevmodal-cont-top-boxitem{
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 27px;
+          p{
+            font-family: Helvetica;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 18px;
+            margin-bottom: 0;
+            color: #48484A;
+          }
+          span{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Helvetica;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 23px;
+            color: #48484A;
+            svg{
+              margin-right: 15px;
+            }
+          }
+        }
+      }
+      .tokennevmodal-cont-top-box2{
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 0px;
+        margin-top: 25px;
+        margin-bottom: 0px;
+        border-bottom: unset;
+        border-top: 1px solid #DFDFDF;
+      }
+      .tokennevmodal-cont-topuslov{
+        width: 100%;
+        label{
+          width: 100%;
+          display: block;
+          margin-bottom: 27px;
+          font-family: Helvetica;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 18px;
+          color: #48484A;
+          input{
+            width: 100%;
+            height: 38px;
+            border: 1px solid #DFDFDF;
+            padding: 0 20px;
+            font-family: Helvetica;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 18px;
+            color: #48484A;
+            margin-top: 12px;
+          }
+        }
+      }
+    }
+    .tokennevmodal-cont-bottom{
+      width: 100%;
+      padding: 30px;
+      background: #F8F8F8;
+      .tokennevmodal-cont-bottom-first{
+        margin-bottom: 25px;
+        padding-bottom: 35px;
+        border-bottom: 1px solid #DFDFDF;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p{
+          font-family: Helvetica;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 18px;
+          color: #48484A;
+          margin-bottom: 0;
+        }
+        span{
+          font-family: Helvetica;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 18px;
+          color: #48484A;
+        }
+      }
+      .tokennevmodal-cont-bottom-last{
+        width: 100%;
+        .tokennevmodal-cont-bottom-last-item{
+          margin-bottom: 25px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          p{
+            font-family: Helvetica;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 18px;
+            color: #48484A;
+            margin-bottom: 0;
+          }
+          span{
+            font-family: Helvetica;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 18px;
+            color: #48484A;
+          }
+        }
+      }
+      .tokennevmodal-cont-bottom-btn{
+        max-width: 754px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 0 auto;
+        button:nth-child(1){
+          width: 181px;
+          height: 54px;
+          color: #fefefe;
+          font-family: Commissioner;
+          font-size: 20px;
+          font-weight: 400;
+          font-style: normal;
+          letter-spacing: normal;
+          line-height: 30px;
+          border: unset;
+          cursor: pointer;
+          background: #4BB496;
+        }
+      }
+    }
+  }
+}
+@media(max-width: 900px){
+  .tokennevmodal{
+    .tokennevmodal-cont{
+      flex-direction: column;
+      .tokennevmodal-cont-top{
+        max-width: unset;
+        padding: 30px 16px;
+      }
+      .tokennevmodal-cont-bottom{
+        max-width: unset;
+        padding: 30px 16px;
+      }
+    }
+  }
+}

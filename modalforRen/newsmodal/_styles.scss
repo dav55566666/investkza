@@ -1,0 +1,242 @@
+.newsmodal{
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 0 16px;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    display: none;
+    background: rgba(0,0,0,0.57);
+    z-index: 20;
+    display: none;
+    &::-webkit-scrollbar{
+      width: 0
+    }
+    .newsmodal-cont{
+      position: relative;
+      margin: 80px auto;
+      max-width: 894px;
+      width: 100%;
+      background: #FFF;
+      .clousmodal{
+        position: absolute;
+        background-color: unset;
+        border: unset;
+        background-image: url("/img/btnclous.png");
+        width: 37px;
+        height: 48px;
+        top: -5px;
+        cursor: pointer;
+        right: 30px;
+      }
+      .newsmodal-cont-top{
+        padding: 30px;
+        width: 100%;
+        .newsmodal-cont-top-box{
+          width: 100%;
+          max-width: 783px;
+          margin: 0 auto;
+          img{
+            margin-bottom: 30px;
+          }
+          .title{
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            color: #599dbb;
+            font-family: "Commissioner";
+            font-size: 20px;
+            font-weight: 500;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 30px;
+            span{
+              color: #6f787e;
+              font-family: Commissioner;
+              font-size: 15px;
+              font-weight: 400;
+              font-style: normal;
+              margin-left: 5px;
+              letter-spacing: normal;
+              line-height: 27px;
+              text-align: left;
+            }
+          }
+          .info{
+            padding: 0;
+            color: #000000;
+            font-family: Commissioner;
+            font-size: 17px;
+            max-width: unset;
+            width: 100%;
+            font-weight: 300;
+            font-style: normal;
+            letter-spacing: normal;
+            margin-bottom: 20px;
+            line-height: normal;
+          }
+          .heshtag{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 30px;
+            a{
+              margin-right: 10px;
+              height: 22px;
+              background: #E9E9E9;
+              padding: 6px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              color: #000000;
+              font-family: Commissioner;
+              font-size: 12px;
+              font-weight: 400;
+              font-style: normal;
+              letter-spacing: normal;
+              line-height: 25px;
+            }
+          }
+          .infoflex{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .infoflex-item{
+              max-width: 320px;
+              width: 100%;
+              span{
+                position: relative;
+                bottom: -10px;
+                color: #eeeeee;
+                font-family: "Commissioner";
+                font-size: 57px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 30px;
+                display: block;
+              }
+              p{
+                display: block;
+                color: #000000;
+                font-family: Commissioner;
+                font-size: 16px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 24px;
+              }
+              a{
+                display: block;
+                color: #5da1bf;
+                font-family: Commissioner;
+                font-size: 20px;
+                font-weight: 500;
+                position: relative;
+                z-index: 5;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 30px;
+                margin-bottom: 15px;
+              }
+            }
+          }
+        }
+      }
+      .newsmodal-cont-bottom{
+        width: 100%;
+        padding: 30px;
+        background: #F8F8F8;
+        .newsmodal-cont-bottom-box{
+          width: 100%;
+          max-width: 783px;
+          margin: 0 auto;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .newsmodal-cont-bottom-box-right{
+            max-width: 265px;
+            width: 100%;
+            p{
+              color: #000000;
+              font-family: Commissioner;
+              font-size: 18px;
+              font-weight: 300;
+              font-style: normal;
+              letter-spacing: normal;
+              line-height: 30px;
+              margin-bottom: 15px;
+            }
+            .newsmodal-cont-bottom-box-right-flex{
+              width: 100%;
+              background-image: url("/img/wqqasc.png");
+              background-size: cover;
+              height: 27px;
+              a{
+                width: 27px;
+                height: 27px;
+              }
+            }
+          }
+          button{
+            width: 240px;
+            height: 71px;
+            background: #599DBB;
+            border: unset;
+            color: #fefefe;
+            font-family: Commissioner;
+            font-size: 23px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 30px;
+          }
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .newsmodal{
+      .newsmodal-cont{
+        margin: 40px auto;
+        .newsmodal-cont-top{
+          .newsmodal-cont-top-box{
+            .title{
+              flex-direction: column;
+              align-items: flex-start;
+            }
+            .infoflex{
+              flex-direction: column;
+              align-items: flex-start;
+              .infoflex-item{
+                max-width: 320px;
+                width: 100%;
+              }
+            }
+          }
+        }
+        .newsmodal-cont-bottom{
+          .newsmodal-cont-bottom-box{
+            flex-direction: column;
+            align-items: flex-start;
+            .newsmodal-cont-bottom-box-right{
+              p{
+                font-size: 16px;
+                line-height: 25px;
+              }
+            }
+            button{
+              font-size: 21px;
+              line-height: 25px;
+            }
+          }
+        }
+      }
+    }
+    
+  }
+  

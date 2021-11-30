@@ -1,0 +1,67 @@
+.tokens-wrapper {
+    background-color: #f8f8f8;
+    padding: 0 16px;
+    .ant-tabs-tab{
+      .ant-tabs-tab-btn{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 27px;
+        line-height: 33px;
+        color: #9DA2A4;
+      }
+    }
+    .ant-tabs-tab-active{
+      .ant-tabs-tab-btn{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 27px;
+        line-height: 33px;
+        color: #2D9778!important;
+
+      }
+    }
+    .ant-tabs-ink-bar{
+      background: #2D9778;
+    }
+    .tokens__heading {
+        font-family: 'Helvetica', sans-serif;
+        font-size: 32px;
+        color: #464649;
+        padding-top: 40px;
+        padding-bottom: 16px;
+    }
+    .tokens__infolink {
+        font-family: 'Helvetica', sans-serif;
+        font-size: 17px;
+        text-decoration: underline;
+        color: #64AAC8;
+        margin-bottom: 30px;
+    }
+    .tokensBlock {
+        padding-top: 60px;
+        &-row {
+            display: flex;
+            justify-content: flex-start;
+            &-item {
+                display: flex;
+                justify-content: space-around;
+                width: 50%;
+                .token {
+                    width: 100%;
+                }
+                @media screen and (max-width: 768px) {
+                    width: 100%;
+                }
+                @media screen and (max-width: 500px) {
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+            @media screen and (max-width: 768px) {
+                flex-direction: column;
+            }
+        }
+    }
+}

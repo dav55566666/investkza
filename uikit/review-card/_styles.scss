@@ -1,0 +1,60 @@
+.reviewCard {
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    width: 100%;
+    position: relative;
+    min-height: 250px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    @media (max-width: 768px) {
+                width: 100%;
+        }
+    &-title {
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 23px;
+        color: #464649;
+        padding-top: 35px;
+        margin: 0;
+    }
+    &-text {
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        color: #4f4f4f;
+        margin: 0;
+        padding-top: 40px;
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    &-date {
+        display: flex;
+        justify-content: space-between;
+        width: 81%;
+        position: absolute;
+        bottom: 0;
+        @media (max-width: 768px) {
+            width: 90%;
+        }
+        @media (max-width: 450px) {
+            width: 84%;
+        }
+        p {
+            font-family: Helvetica;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 17px;
+            color: #5da1bf;
+        }
+        img {
+            display: block;
+            height: 100%;
+        }
+    }
+}
+

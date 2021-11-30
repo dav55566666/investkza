@@ -1,0 +1,194 @@
+.reviewmodal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.57);
+  z-index: 20;
+  display: none;
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+  .reviewmodal-cont {
+    position: relative;
+    display: block;
+    margin: 40px auto 0;
+    max-width: 854px;
+    width: 100%;
+    background: #fff;
+    .clousmodal {
+      position: absolute;
+      background-color: unset;
+      border: unset;
+      background-image: url("/img/btnclous.png");
+      width: 37px;
+      height: 48px;
+      top: -5px;
+      cursor: pointer;
+      right: 30px;
+    }
+    .reviewmodal-cont-title {
+      width: 100%;
+      padding: 72px 16px 41px;
+      background: #fff;
+      .reviewmodal-cont-title-box {
+        max-width: 748px;
+        width: 100%;
+        margin: 0 auto;
+        .reviewmodal-cont-title-box-flex {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 27px;
+          h3 {
+            color: #464649;
+            font-family: Commissioner;
+            font-size: 23px;
+            font-weight: 500;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 30px;
+            text-align: left;
+          }
+        }
+        p {
+          color: #000000;
+          font-family: Commissioner;
+          font-size: 17px;
+          font-weight: 300;
+          font-style: normal;
+          letter-spacing: normal;
+          line-height: 27px;
+          text-align: left;
+        }
+      }
+    }
+    .reviewmodal-cont-form {
+      width: 100%;
+      padding: 46px 16px 50px;
+      background-color: #f3f3f3;
+      .reviewmodal-cont-form-box {
+        max-width: 748px;
+        width: 100%;
+        margin: 0 auto;
+        .reviewmodal-cont-form-box-top {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 30px;
+          label {
+            color: #14906c;
+            font-family: Commissioner;
+            font-size: 17px;
+            font-weight: 500;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 25px;
+            display: block;
+            max-width: 368px;
+            width: 100%;
+            .ant-dropdown-trigger,
+            input {
+              width: 100%;
+              height: 54px;
+              border: 1px solid #e4e4e4;
+              background-color: #fcfcfc;
+              padding: 0 20px;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              margin-top: 15px;
+              color: #000000;
+              font-family: Commissioner;
+              font-size: 17px;
+              font-weight: 400;
+              font-style: normal;
+              letter-spacing: normal;
+              line-height: 25px;
+              span {
+                color: #000000;
+                font-family: Commissioner;
+                font-size: 17px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 25px;
+              }
+              img {
+              }
+            }
+          }
+        }
+        .reviewmodal-cont-form-box-bottom {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-end;
+          .reviewmodal-cont-form-box-bottom-left {
+            max-width: 370px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+          label {
+            // max-width: 180px;
+            width: 100%;
+            display: block;
+            color: #14906c;
+            font-family: Commissioner;
+            font-size: 17px;
+            font-weight: 500;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 25px;
+            display: block;
+            textarea {
+              width: 100%;
+              height: 54px;
+              border: 1px solid #e4e4e4;
+              background-color: #fcfcfc;
+              padding: 0 20px;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              margin-top: 15px;
+              color: #000000;
+              font-family: Commissioner;
+              font-size: 17px;
+              font-weight: 400;
+              font-style: normal;
+              letter-spacing: normal;
+              line-height: 25px;
+              resize: none;
+            }
+          }
+          .reviewmodal-cont-form-box-bottom-right {
+            max-width: 170px;
+            width: 100%;
+            label {
+              max-width: unset;
+              input {
+                height: 54px;
+                color: #fefefe;
+                font-family: Commissioner;
+                font-size: 20px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 30px;
+                text-align: center;
+                background-color: #599dbb;
+                justify-content: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

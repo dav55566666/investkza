@@ -1,0 +1,117 @@
+.tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .walletitemtr td:nth-child(5){
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  a:nth-child(2){
+    background: #3FBE9A;
+    margin-left: 10px
+  }
+}
+.tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .walletitemtr td:nth-child(1) {
+    padding-left: 30px;
+    width: 304px;
+}
+.tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .walletitemtr td:nth-child(2) {
+    width: 181px;
+}
+
+.tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .walletitemtr td:nth-child(3) {
+    width: 128px;
+}
+.tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .walletitemtr td:nth-child(4) {
+    width: 144px;
+}
+.wallet .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .walletitemtr3 .lasttdwallet{
+  flex-direction: row;
+  width: 376px!important;
+  display: flex;
+  justify-content: space-between;
+  a{
+    max-width: 120px
+  }
+  button{
+    width: 59px;
+    height: 45px;
+    border: 2px solid #9da2a4;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+    span{
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: #9da2a4;
+      margin: 0 2px;
+    }
+  }
+}
+.wallet .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .tantitletr td:nth-child(4) p {
+    max-width: 200px!important;
+}
+.wallet .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .tantitletr td:nth-child(4) {
+    width: 206px;
+}
+.wallet .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .tantitletr td:nth-child(3) p {
+    max-width: 122px;
+}
+.wallet .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .tantitletr td:nth-child(1) p {
+    max-width: 129px;
+}
+.reftab .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .walletitemtr td:nth-child(5) a{
+  max-width: 150px
+}
+.reftab .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .walletitemtr td:nth-child(5) button{
+  display: none
+}
+.reftab .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .walletitemtr td:nth-child(5){
+  flex-direction: row!important;
+  width: 350px!important;
+  flex-wrap: nowrap!important;
+  justify-content: space-between!important
+}
+.reftab .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .tabitemtr{
+  padding-right: 0
+}
+.reftab .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .tantitletr td:nth-child(4) {
+    width: 279px;
+    p{
+      max-width: 280px
+    }
+}
+.wallet .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .tantitletr .tdref:nth-child(1) p {
+    max-width: 154px;
+}
+.wallet .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .tantitletr td:nth-child(5){
+  svg{display: none}
+}
+.refpro table .walletitemtr td:nth-child(5) a:nth-child(2){
+  margin-left: 0!important;
+  margin-right: 10px;
+  background: #599DBB!important;
+}
+.refpro table .walletitemtr td:nth-child(5) a:nth-child(3){
+      background: #4BB496!important;
+}
+.tdref{
+  p{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  svg{
+    margin-left: 8px
+  }
+}
+.refpro .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .tabitemtr td:nth-child(1){
+      width: 260px!important;
+}
+.refpro .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .walletitemtr4 td:nth-child(4){
+  p{
+    max-width: 100px;
+  }
+}

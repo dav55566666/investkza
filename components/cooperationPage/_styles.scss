@@ -1,0 +1,153 @@
+.cooperationPage {
+    background-color: #f8f8f8;
+
+    .title {
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 27px;
+        line-height: 31px;
+        color: #2d9778;
+        @media screen and (max-width: 768px) {
+            font-size: 20px;
+        }
+    }
+
+    .company {
+        padding-top: 34px;
+        h1 {
+            font-family: Helvetica;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 32px;
+            line-height: 37px;
+            color: #464649;
+            @media screen and (max-width: 768px) {
+                font-size: 22px;
+            }
+            @media screen and (max-width: 450px) {
+                font-weight: bold;
+            }
+        }
+        p {
+            font-family: Helvetica;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 29px;
+            color: #000000;
+            @media screen and (max-width: 768px) {
+                font-size: 16px;
+            }
+        }
+    }
+    .infoBlock {
+        display: flex;
+        justify-content: space-between;
+        &-item {
+            display: flex;
+            justify-content: space-between;
+            @media screen and (max-width: 450px) {
+                flex-direction: column;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+        }
+    }
+    .ourTeam {
+        padding-top: 60px;
+        &-row {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 25px;
+            &-item {
+                display: flex;
+                justify-content: space-between;
+                width: 50%;
+                @media screen and (max-width: 768px) {
+                    width: 100%;
+                }
+                @media screen and (max-width: 450px) {
+                    flex-direction: column;
+                }
+            }
+            @media screen and (max-width: 768px) {
+                flex-direction: column;
+            }
+        }
+    }
+    .vacansia {
+        padding-top: 50px;
+        h2 {
+            padding-bottom: 35px;
+        }
+        .collapse {
+            margin-bottom: 22px;
+            .text {
+                .greytext {
+                    font-family: Helvetica;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 15px;
+                    line-height: 17px;
+                    color: #8e8e8e;
+                    margin-left: 2px;
+                    span {
+                        padding-right: 30px;
+                        @media screen and (max-width: 450px) {
+                            padding-right: 15px;
+                        }
+                    }
+                    @media screen and (max-width: 450px) {
+                        font-size: 11px;
+                    }
+                }
+                .button {
+                    color: #fff;
+                    padding: 15px 0;
+                    background-color: #599dbb;
+                    letter-spacing: 1px;
+                    margin: 30px 0 35px;
+                    display: block;
+                    width: 170px;
+                    text-align: center;
+                }
+                ul {
+                    list-style: none;
+                    li {
+                        position: relative;
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            border-right: 2px solid #54b69a;
+                            border-bottom: 2px solid #54b69a;
+                            width: 6px;
+                            height: 6px;
+                            top: 17px;
+                            left: -20px;
+                            transform: translateY(-50%) rotate(-45deg);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .lawDoc {
+        padding-top: 50px;
+        h2 {
+            padding-bottom: 35px;
+        }
+        .collapse {
+            margin-bottom: 22px;
+        }
+    }
+    .carousel {
+        background-color: #fff;
+        padding: 50px 0;
+        h2 {
+            padding-bottom: 30px;
+        }
+    }
+}

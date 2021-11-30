@@ -1,0 +1,99 @@
+.partner {
+  width: 100%;
+  padding: 30px 16px 240px;
+  background: #f8f9fc;
+  .partner-cont {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    h1 {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 39px;
+      color: #464649;
+      margin-bottom: 30px;
+    }
+    .partner-cont-flex {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 30px;
+      .partner-cont-flex-item {
+        padding: 31px 16px 39px;
+        text-align: center;
+        background: #fff;
+        border: 2px solid #dfdfdf;
+        img {
+          max-width: 135px;
+          width: 100%;
+          display: block;
+          margin: 0 auto 15px;
+        }
+        p {
+          font-family: Helvetica;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 18px;
+          color: #000000;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1050px) {
+  .partner {
+    padding: 30px 16px 240px;
+    .partner-cont {
+      h1 {
+        font-size: 22px;
+        line-height: 27px;
+        margin-bottom: 30px;
+      }
+      .partner-cont-flex {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+        .partner-cont-flex-item {
+          padding: 31px 16px 39px;
+          img {
+            max-width: 135px;
+            margin: 0 auto 15px;
+          }
+          p {
+            font-size: 16px;
+            line-height: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 583px) {
+  .partner {
+    padding: 30px 16px 240px;
+    .partner-cont {
+      h1 {
+        font-size: 22px;
+        line-height: 27px;
+        margin-bottom: 30px;
+      }
+      .partner-cont-flex {
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+        .partner-cont-flex-item {
+          padding: 31px 16px 39px;
+          img {
+            max-width: 135px;
+            margin: 0 auto 15px;
+          }
+          p {
+            font-size: 16px;
+            line-height: 18px;
+          }
+        }
+      }
+    }
+  }
+}

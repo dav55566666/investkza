@@ -1,0 +1,162 @@
+.tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .walletitemtr td:nth-child(5){
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  a:nth-child(2){
+    background: #3FBE9A;
+    margin-left: 10px
+  }
+}
+.tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .walletitemtr td:nth-child(1) {
+    padding-left: 30px;
+    width: 304px;
+}
+.tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .walletitemtr td:nth-child(2) {
+    width: 181px;
+}
+
+.tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .walletitemtr td:nth-child(3) {
+    width: 128px;
+}
+.tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .walletitemtr td:nth-child(4) {
+    width: 144px;
+}
+.wallet .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .walletitemtr3 .lasttdwallet{
+  flex-direction: row;
+  width: 376px!important;
+  display: flex;
+  justify-content: space-between;
+  a{
+    max-width: 120px
+  }
+  button{
+    width: 59px;
+    height: 45px;
+    border: 2px solid #9da2a4;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+    span{
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: #9da2a4;
+      margin: 0 2px;
+    }
+  }
+}
+.wallet2 .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .walletitemtr4 .lasttdwallet{
+  a{
+    max-width: unset!important
+  }
+}
+.wallet .tokens-tab .tokens-tab-cont .tokens-tab-cont-table .prodattab .walletitemtr3{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 0
+}
+.wallet .tokens-tab .tokens-tab-cont .tokens-tab-cont-table .prodattab{
+  .tantitletr{
+    td:nth-child(1) {
+        padding-left: 30px;
+        width: 238px;
+    }
+    td:nth-child(5) {
+      width: 213px;
+    }
+    td:nth-child(3) {
+      width: 128px;
+    }
+    td:nth-child(4) {
+      width: 176px;
+    }
+    td:nth-child(2) {
+      width: 202px;
+    }
+  }
+  .tabitemtr{
+    td:nth-child(2) {
+      width: 170px !important;
+    }
+    td:nth-child(4) {
+      position: relative;
+      left: -57px;
+    }
+  }
+}
+.tokens-tab .tokens-tab-cont .tokens-tab-cont-table .prodattab .tantitletr{display: block;}
+.wallet .tokens-tab .tokens-tab-cont .tokens-tab-cont-table .prodattab .walletitemtr3 .lasttdwallet{
+      width: 254px !important;
+      display: flex!important;
+      justify-content: space-between;
+      align-items: center;
+  a:nth-child(2){display: none;}
+}
+.wallet .tokens-tab .tokens-tab-cont .tokens-tab-cont-table .prodattab2 .walletitemtr3 .lasttdwallet{
+  a:nth-child(2){display: flex;}
+  a:nth-child(3){display: none;}
+}
+.wallet .tokens-tab .tokens-tab-cont .tokens-tab-cont-table .prodattab .walletitemtr3 .newtd{
+  width: 131px!important;
+  position: relative;
+  left: -5px;
+}
+.wallet .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .tantitletr td:nth-child(4) p {
+    max-width: 200px!important;
+}
+.wallet .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .tantitletr td:nth-child(4) {
+    width: 206px;
+}
+.wallet .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .tantitletr td:nth-child(3) p {
+    max-width: 122px;
+}
+.wallet .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .tantitletr td:nth-child(1) p {
+    max-width: 129px;
+}
+.reftab .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .walletitemtr td:nth-child(5) a{
+  max-width: 150px
+}
+.reftab .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .walletitemtr td:nth-child(5) button{
+  display: none
+}
+.reftab .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .walletitemtr td:nth-child(5){
+  flex-direction: row!important;
+  width: 350px!important;
+  flex-wrap: nowrap!important;
+  justify-content: space-between!important
+}
+.reftab .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .tabitemtr{
+  padding-right: 0
+}
+.reftab .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .tantitletr td:nth-child(4) {
+    width: 279px;
+    p{
+      max-width: 280px
+    }
+}
+.wallet .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .walletitemtr4 .lasttdwallet {
+    flex-direction: row;
+    width: 376px !important;
+    display: flex;
+    justify-content: flex-end!important;
+}
+.wallet .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .walletitemtr4 .lasttdwallet a{
+  max-width: 176px
+}
+.wallet .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .walletitemtr4 td:nth-child(4) {
+    width: 235px;
+}
+.wallet .tokens-tab .tokens-tab-cont .tokens-tab-cont-title .tokens-tab-cont-title-rightmin {
+    max-width: 367px!important;
+    img{
+      margin-right: 5px
+    }
+}

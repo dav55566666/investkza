@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Helvetica';
+    font-display: auto;
+    src: url('/fonts/Helvetica.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Light';
+    font-display: auto;
+    src: url('/fonts/HelveticaLight.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}

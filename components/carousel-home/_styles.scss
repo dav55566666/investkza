@@ -1,0 +1,45 @@
+.carousel-home {
+  width: 100%;
+  height: 204px;
+  background: #2d9778;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+  user-select: none;
+  &_item {
+    display: flex;
+    align-items: flex-start;
+    padding: 0 20px;
+    img {
+      width: 74px;
+      margin-right: 29px;
+    }
+
+    .home_item-desc {
+      display: flex;
+      flex-direction: column;
+
+      p {
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+
+        margin-bottom: 3px;
+        color: #abffe7;
+      }
+
+      span {
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 37px;
+        color: #ffffff;
+      }
+    }
+  }
+}

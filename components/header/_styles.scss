@@ -1,0 +1,130 @@
+.header-home {
+  height: 545px;
+  width: 100%;
+  background: url("/img/mainbg.png");
+  background-size: cover;
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  &_content {
+    h1 {
+      span {
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 47px;
+        line-height: 57px;
+        color: #2d9778;
+      }
+
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 47px;
+      line-height: 57px;
+      color: #000000;
+      margin-bottom: 13px;
+    }
+
+    p {
+      font-family: Helvetica, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 23px;
+      color: #000000;
+      margin-bottom: 63px;
+    }
+
+    button {
+      width: 240px;
+      height: 71px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Helvetica, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 23px;
+      line-height: 26px;
+      color: #fefefe;
+      transition: all 0.5s;
+      cursor: pointer;
+      &:hover {
+        background: #30f37e;
+      }
+    }
+  }
+}
+@media (max-width: 960px) {
+  .header-home {
+    height: 380px;
+    .container {
+      display: flex;
+      align-items: center;
+    }
+
+    &_content {
+      h1 {
+        span {
+          font-size: 38px;
+          line-height: 44px;
+        }
+
+        font-size: 38px;
+        line-height: 44px;
+        margin-bottom: 13px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 40px;
+      }
+
+      button {
+        width: 200px;
+        height: 50px;
+        font-size: 16px;
+        line-height: 22px;
+      }
+    }
+  }
+}
+@media (max-width: 507px) {
+  .header-home {
+    height: 321px;
+    .container {
+      display: flex;
+      align-items: center;
+    }
+
+    &_content {
+      h1 {
+        span {
+          font-size: 22px;
+          line-height: 28px;
+        }
+
+        font-size: 22px;
+        line-height: 28px;
+        margin-bottom: 13px;
+      }
+
+      p {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 29px;
+      }
+
+      button {
+        width: 200px;
+        height: 50px;
+        font-size: 16px;
+        line-height: 22px;
+      }
+    }
+  }
+}

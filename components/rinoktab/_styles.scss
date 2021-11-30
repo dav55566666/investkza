@@ -1,0 +1,74 @@
+.tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .walletitemtr td:nth-child(5){
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    a:nth-child(2){
+      background: #3FBE9A;
+      margin-left: 10px
+    }
+  }
+  .wallet .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .tantitletr td:nth-child(5) p{
+    max-width: 267px
+  }
+  .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .walletitemtr td:nth-child(1) {
+      padding-left: 30px;
+      width: 304px;
+  }
+  .wallet .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .tabitemtr td:nth-child(2) {
+      width: 189px!important;
+  }
+  
+  .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .walletitemtr td:nth-child(3) {
+      width: 128px;
+  }
+  .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .walletitemtr td:nth-child(4) {
+      width: 144px;
+  }
+  
+  .wallet .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .tabitemtr .btntd{
+    display: block!important
+  }
+  .tokens-tabr .tokens-tab-cont .tokens-tab-cont-table table .tabitemtrrin .rinoklasttd{
+    display: flex;
+    flex-wrap: nowrap!important;
+    flex-direction: row!important;
+    align-items: center;
+    width: 400px!important;
+    button{
+      width: 59px;
+      height: 45px;
+      border: 2px solid #9da2a4;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 10px;
+      cursor: pointer;
+      &:nth-child(3){
+        border: unset
+      }
+      span{
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background: #9da2a4;
+        margin: 0 2px
+      }
+    }
+  
+  }
+  .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .tabitemtr td:nth-child(5) .flextd{
+    height: auto;
+    background: unset;
+    span{
+      background: unset;
+    }
+  }
+  .tokens-tab .tokens-tab-cont .tokens-tab-cont-table table .tabitemtr td:nth-child(5) .flextd div{
+    span{
+      background: #4BB496;
+    }
+  }
+  

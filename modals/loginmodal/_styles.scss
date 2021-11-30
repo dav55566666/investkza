@@ -1,0 +1,263 @@
+.login{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  background: rgba(0,0,0,0.57);
+  z-index: 20;
+  display: none;
+  &::-webkit-scrollbar{
+    width: 0
+  }
+  .login-cont{
+    position: relative;
+    margin: 80px auto;
+    max-width: 468px;
+    width: 100%;
+    background: #FFF;
+    .clousmodal{
+      position: absolute;
+      background-color: unset;
+      border: unset;
+      background-image: url("/img/btnclous.png");
+      width: 37px;
+      height: 48px;
+      top: -5px;
+      cursor: pointer;
+      right: 30px;
+    }
+    .login-cont-top{
+      padding: 72px 16px 40px;
+      h3{
+        max-width: 754px;
+        width: 100%;
+        margin: 0 auto 26px;
+        color: #464649;
+        font-family: Commissioner;
+        font-size: 23px;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 30px;
+      }
+      .login-cont-top-flex{
+        max-width: 754px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        label{
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          max-width: 200px;
+          position: relative;
+          &:nth-child(2){margin-top: 16px}
+          input{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            z-index: 2;
+            cursor: pointer;
+          }
+          span{
+            width: 31px;
+            height: 31px;
+            border: 1px solid #e4e4e4;
+            background-color: #fff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &::before{
+              width: 11px;
+              height: 11px;
+              background-color: #599dbb;
+              content: "";
+              border-radius: 50%;
+              position: relative;
+              opacity: 0;
+            }
+          }
+          .active-firstStep {
+            &::before{
+              opacity: 1;
+            }
+          }
+          //input:checked ~ span::before{
+          //  opacity: 1;
+          //}
+          p{
+            margin: 0 0 0 10px;
+            font-family: Commissioner;
+            font-size: 17px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 25px;
+          }
+        }
+      }
+    }
+    .login-cont-bottom{
+      width: 100%;
+      padding: 40px 16px 50px;
+      background-color: #f3f3f3;
+        label{
+          color: #14906c;
+          font-family: Commissioner;
+          font-size: 17px;
+          font-weight: 500;
+          font-style: normal;
+          letter-spacing: normal;
+          line-height: 25px;
+        }
+        .textinp{
+
+          width: 100%;
+          color: #14906c;
+          font-family: Commissioner;
+          font-size: 17px;
+          font-weight: 500;
+          font-style: normal;
+          letter-spacing: normal;
+          line-height: 25px;
+          display: block;
+          margin-bottom: 35px;
+          div{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            p{
+              margin-bottom: 0
+            }
+            a{
+              color: #2e83a8;
+              font-family: Commissioner;
+              font-size: 17px;
+              font-weight: 500;
+              font-style: normal;
+              letter-spacing: normal;
+              line-height: 25px;
+              text-align: right;
+              text-decoration: underline;
+            }
+          }
+          input{
+            margin-top: 15px;
+            width: 100%;
+            height: 54px;
+            border: 1px solid #e4e4e4;
+            background-color: #fcfcfc;
+            padding: 0 22px;
+            color: #000000;
+            font-family: Commissioner;
+            font-size: 17px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 25px;
+          }
+        }
+        .kodinpblock{
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-end;
+
+          margin-bottom: 35px;
+          .kodinp{
+            max-width: 178px;
+            width: 100%;
+            input{
+              margin-top: 15px;
+              width: 100%;
+              height: 54px;
+              border: 1px solid #e4e4e4;
+              background-color: #fcfcfc;
+              padding: 0 22px;
+              color: #000000;
+              font-family: Commissioner;
+              font-size: 17px;
+              font-weight: 400;
+              font-style: normal;
+              letter-spacing: normal;
+              line-height: 25px;
+            }
+          }
+          .kodbtn{
+            max-width: 170px;
+            width: 100%;
+            input{
+              width: 100%;
+              height: 54px;
+              border: unset;
+              cursor: pointer;
+              background-color: #14906c;
+              color: #fefefe;
+              font-family: Commissioner;
+              font-size: 17px;
+              font-weight: 400;
+              font-style: normal;
+              letter-spacing: normal;
+              line-height: 30px;
+              text-align: center;
+            }
+          }
+        }
+        .sendinp{
+
+          width: 100%;
+          input{
+            width: 100%;
+            height: 71px;
+            background: #599DBB;
+            border: unset;
+            cursor: pointer;
+            color: #fefefe;
+            font-family: Commissioner;
+            font-size: 23px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 30px;
+          }
+        }
+        .login-link{
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          margin-top: 30px;
+          align-items: center;
+          p{
+            color: #000000;
+            font-family: Commissioner;
+            font-size: 23px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 30px;
+            margin: 0
+          }
+          a{
+            color: #2e83a8;
+            text-decoration: underline;
+            font-family: Commissioner;
+            font-size: 23px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 30px;
+            margin-left: 5px;
+          }
+        }
+    }
+  }
+}

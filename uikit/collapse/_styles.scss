@@ -1,0 +1,44 @@
+.collapse {
+    .ant-collapse {
+        background-color: #fff;
+        border: 1px solid #e2e2e2;
+        &-header {
+            color: #5da1bf !important;
+            font-size: 20px;
+            padding: 27px 0 27px 57px !important;
+            @media screen and (max-width: 450px) {
+                font-size: 16px;
+            }
+            img.ant-collapse-arrow {
+                top: 25px !important;
+                left: 30px !important;
+                @media screen and (max-width: 450px) {
+                    top: 21px !important;
+                }
+            }
+        }
+        &-item {
+            &-active {
+                .ant-collapse-header {
+                    color: #a1a4a5 !important;
+                }
+            }
+        }
+        &-item-active {
+            .ant-collapse-header {
+                color: #a1a4a5 !important;
+            }
+        }
+        &-content-box {
+            padding-left: 30px !important;
+            .text {
+                color: #000;
+                font-size: 17px;
+                line-height: 29px;
+                @media screen and (max-width: 450px) {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+.user {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    @media screen and (max-width: 450px) {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        @media screen and (max-width: 450px) {
+            width: 80%;
+        }
+    }
+    h3 {
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+        color: #464649;
+        padding-top: 5px;
+    }
+    p {
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 23px;
+        color: #000;
+    }
+}

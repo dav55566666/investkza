@@ -1,0 +1,116 @@
+.nav-menu {
+  width: 100%;
+  height: 69px;
+  display: flex;
+  border-bottom: 1px solid #dfdfdf;
+
+  &_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+
+    .nav-menu_auth {
+      display: flex;
+      align-items: center;
+
+      .nav-menu_actions {
+        display: flex;
+        align-items: center;
+
+        button {
+          transition: all 0.5s;
+          cursor: pointer;
+          &:nth-child(1) {
+            width: 79px;
+            height: 42px;
+            margin-right: 12px;
+            &:hover {
+              background: #5cffce;
+            }
+          }
+
+          &:nth-child(2) {
+            width: 256px;
+            height: 42px;
+            &:hover {
+              background: #32f6ff;
+            }
+          }
+
+          &:nth-child(3) {
+            width: 146px;
+            height: 42px;
+            &:hover {
+              background: #32f6ff;
+            }
+          }
+        }
+      }
+
+      &-lang {
+        display: flex;
+        align-items: center;
+        margin-right: 40px;
+
+        img {
+          &:nth-child(1) {
+            width: 30px;
+            margin-right: 13px;
+          }
+
+          &:nth-child(3) {
+            margin-left: 8px;
+          }
+
+          span {
+            font-family: "Helvetica", sans-serif !important;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 20px;
+            color: #000000;
+          }
+        }
+      }
+    }
+
+    .nav-menu_logo {
+      position: relative;
+      height: 100%;
+      img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        padding: 10px 0;
+      }
+    }
+  }
+}
+
+.nav-choose_lang {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+
+  img {
+    width: 30px;
+    margin-right: 13px;
+  }
+
+  span {
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+  }
+}
+@media (max-width: 960px) {
+  .nav-menu {
+    display: none;
+  }
+}

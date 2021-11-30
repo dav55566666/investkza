@@ -1,0 +1,62 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+.cooperationCarousel {
+    // margin: auto;
+    // max-width: 96%;
+    // width: 458px;
+    @media only screen and (max-width: 692px) {
+        margin: auto;
+        max-width: 96%;
+        width: 638px;
+        .cooperation-slider-item p{
+            font-size: 12px;
+        }
+        .slick-slide {
+            img {
+                width: 110px;
+            }
+        }
+    }
+    @media only screen and (max-width: 522px) {
+        .cooperation-slider-item {
+            // width: 90%;
+            height: 220px;
+            border: 1px solid transparent;
+            cursor: pointer;
+            position: relative;
+            max-width: 300px;
+            div {
+                margin: auto;
+                width: 30%;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .slick-arrow {
+        background-color: #f6f6f6;
+        top: -20%;
+        height: 38px;
+        width: 38px;
+        &::before {
+            color: #85898a;
+            opacity: 1;
+            font-family: monospace;
+        }
+    }
+    .slick-prev {
+        left: inherit;
+        right: 81px;
+        &::before {
+            content: "<";
+        }
+    }
+    .slick-next {
+        left: inherit;
+        right: 38px;
+        &::before {
+            content: ">";
+        }
+    }
+}

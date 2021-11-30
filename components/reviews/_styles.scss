@@ -1,0 +1,52 @@
+.review__header {
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 0 31px;
+    align-items: center;
+    .review__page_heading {
+        font-family: "Helvetica", sans-serif;
+        font-size: 32px;
+        color: #464649;
+        margin-bottom: 0;
+    }
+}
+.reviews {
+    display: flex;
+    justify-content: space-between;
+    .reviewCard {
+        width: 32%;
+    }
+}
+
+@media (max-width: 768px) {
+    .reviews {
+        flex-direction: column;
+        margin-bottom: 0;
+        .reviewCard {
+            width: 100%;
+        }
+    }
+    .review__page_heading {
+        font-size: 22px;
+    }
+    .review__header {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .review__header {
+        flex-direction: column;
+        margin-top: 22px;
+        margin-bottom: 20px;
+        button {
+            width: 100%;
+            margin-top: 16px;
+        }
+        .review__page_heading {
+            font-weight: 500;
+            font-size: 22px;
+        }
+    }
+}

@@ -1,0 +1,165 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f8f9fc;
+    font-family: 'Inter', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none !important;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --modal-z-index: 999;
+    --notification-z-index: 9999;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+
+.grid-row-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.grid-row-6 {
+    display: grid;
+    grid-template-columns: 2.7fr 2.2fr 1.5fr 2fr 2fr 1fr;
+    align-items: center;
+}
+
+.grid-row-5 {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 2.5fr 2.5fr 1fr;
+    align-items: center;
+}
+
+.grid-row-4 {
+    display: grid;
+    grid-template-columns: 2fr 2.5fr 2.5fr 1fr;
+    align-items: center;
+}
+
+.objects-list_tree {
+    .ant-tree-switcher-line-icon {
+        background: blue;
+
+        svg {
+            fill: #fff;
+            path {
+                &:nth-child(2) {
+                    fill: blue;
+                }
+            }
+        }
+    }
+}
+
+.home {
+    background: #fff;
+}
+
+@import '../public/fonts/fonts.css';
+@import '../uikit/input/styles';
+@import '../uikit/button/styles';
+@import '../uikit/select/styles';
+@import '../uikit/checkbox/styles';
+@import '../uikit/swicher/styles';
+@import '../uikit/nav/styles';
+@import '../uikit/nav/sub-menu/styles';
+@import '../uikit/collapse/styles';
+@import '../uikit/pagination/styles';
+@import '../uikit/info/styles';
+@import '../uikit/user/styles';
+@import '../uikit/cooperation-slider-item/styles';
+@import '../uikit/nav-panel/styles';
+@import '../components/header/styles';
+@import '../components/winmodal/styles';
+@import '../components/zayavbuy/styles';
+@import '../components/zayavmodal/styles';
+@import '../components/deletemodal/styles';
+@import '../components/refprogram/styles';
+@import '../components/tarif/styles';
+@import '../components/reftable/styles';
+@import '../components/tarifmodal/styles';
+@import '../components/tokenmodal/styles';
+@import '../components/topup/styles';
+@import '../components/carousel-home/styles';
+@import '../components/partner/styles';
+@import '../components/marketonline/styles';
+@import '../components/support-page/styles';
+@import '../components/tokenmodalnev/styles';
+@import '../components/new-partner/styles';
+@import '../components/chart/styles';
+@import '../components/legaldocumentation/styles';
+@import '../components/news/styles';
+@import '../components/sale/styles';
+@import '../components/otziv/styles';
+@import '../components/news_filter/styles';
+@import '../components/brendcrumbs/styles';
+@import '../components/advantages/styles';
+@import '../components/experians/styles';
+@import '../components/wallet/styles';
+@import '../components/descreption/styles';
+@import '../components/how-start/styles';
+@import '../components/footer/styles';
+@import '../components/faqPage/styles';
+@import '../components/cooperationPage/styles';
+@import '../components/tokens-tab/styles';
+@import '../components/rinoktab/styles';
+@import '../components/rinok/styles';
+@import '../components/cooperationCarousel/styles';
+@import '../components/referral-program/styles';
+@import '../components/terms-of-cooperation/styles';
+@import '../components/reviews/styles';
+@import '../components/regmodal/styles';
+@import '../components/wallettable/styles';
+@import '../uikit/review-card/styles';
+@import '../uikit/nails/styles';
+@import '../components/tokens-page/styles';
+@import '../uikit/token/styles';
+@import '../components/NailsPage/styles';
+@import '../components/forms/styles';
+@import '../components/registr/styles';
+@import '../components/support-header/styles';
+@import '../modals/loginmodal/styles';
+@import '../modalforRen/newsmodal/styles';
+@import '../modals/deletemodal/styles';
+@import '../modals/filtermodal/styles';
+@import '../modals/reviewmodal/styles';
+@import '../modals/tokenmodal/styles';
+@import '../modals/tokenmodalnev/styles';
+@import '../modals/tokenwinmodal/styles';
+@import '../modals/topup/styles';
+@import '../modals/topup2/styles';
+@import '../modals/zayavmodal/styles';
+@import '../modals/zayavmodalorder/styles';
+@import '../modals/zayavmodalorder2/styles';

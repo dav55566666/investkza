@@ -1,0 +1,92 @@
+.token {
+    max-width: 270px;
+    width: 50%;
+    border: 1px solid #e2e2e2;
+    background-color: #fff;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    @media screen and (max-width: 500px) {
+        width: 100%;
+        max-width: 350px;
+    }
+    &-img {
+        border-bottom: 1px solid #e2e2e2;
+        padding: 40px 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        img {
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+    &-info {
+        &-name {
+            font-family: Helvetica;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+            color: #424c4e;
+            padding-top: 20px;
+            @media screen and (max-width: 1020px) {
+                font-size: 15px;
+            }
+            @media screen and (max-width: 768px) {
+                font-size: 18px;
+            }
+        }
+        &-production {
+            color: #14906c;
+            padding: 0;
+        }
+        &-count {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin: auto;
+            padding-top: 15px;
+            p {
+                font-family: Helvetica;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 18px;
+                color: #000000;
+                &:first-child {
+                    width: 60%;
+                    @media screen and (max-width: 1020px) {
+                        width: 70%;
+                    }
+                }
+                @media screen and (max-width: 1020px) {
+                    font-size: 13px;
+                }
+                @media screen and (max-width: 768px) {
+                    font-size: 16px;
+                }
+            }
+            @media screen and (max-width: 1020px) {
+                width: 75%;
+            }
+        }
+        &-btn {
+            margin: 10px 0 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            button {
+                width: 80%;
+                @media screen and (max-width: 1020px) {
+                    width: 75%;
+                }
+                &:nth-child(2){
+                  background: #4BB496;
+                  margin-top: 16px;
+                }
+            }
+        }
+    }
+}

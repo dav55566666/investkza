@@ -1,0 +1,167 @@
+.news-filter {
+  width: 100%;
+  padding: 30px 16px;
+  background: #f8f9fc;
+  .news-cont {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    .news-cont-title {
+      width: 100%;
+      margin-bottom: 35px;
+      h1 {
+        margin-bottom: 20px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 39px;
+        color: #464649;
+      }
+      h2 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 27px;
+        line-height: 33px;
+        color: #2d9778;
+      }
+      p {
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 26px;
+        color: #000000;
+      }
+    }
+    .news-cont-filter {
+      padding: 20px 25px;
+      background: #fff;
+      border: 2px solid #dfdfdf;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      .news-cont-filter-left {
+        max-width: 230px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        .news-cont-filter-left-item {
+          max-width: 90px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 100%;
+          p {
+            margin: 0;
+            font-family: Helvetica;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 20px;
+            color: #000000;
+          }
+          img {
+            position: relative;
+            bottom: -0px;
+          }
+        }
+      }
+      .news-cont-filter-right {
+        max-width: 825px;
+        width: 100%;
+        form {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 100%;
+          input[type="text"] {
+            background: unset;
+            border: unset;
+            outline: none;
+            width: 100%;
+            padding-right: 16px;
+            height: 25px;
+            font-family: Helvetica;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 21px;
+            color: #6f787e;
+          }
+          input[type="submit"] {
+            min-width: 22px;
+            min-height: 22px;
+            background-image: url("/img/searchicon.png");
+            background-size: contain;
+            background-position: center;
+            cursor: pointer;
+            outline: none;
+            background-repeat: no-repeat;
+            background-color: unset;
+            border: unset;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 583px) {
+  .news-filter {
+    .news-cont {
+      .news-cont-title {
+        margin-bottom: 35px;
+        h1 {
+          margin-bottom: 12px;
+          font-size: 22px;
+          line-height: 27px;
+          text-align: center;
+        }
+        p {
+          font-size: 17px;
+          line-height: 26px;
+        }
+      }
+      .news-cont-filter {
+        padding: 20px 0px;
+        border: 2px solid #dfdfdf;
+        flex-direction: column;
+        .news-cont-filter-left {
+          max-width: unset;
+          border-bottom: 2px solid #dfdfdf;
+          padding: 0 30px 20px;
+          .news-cont-filter-left-item {
+            max-width: 90px;
+            width: 100%;
+            p {
+              font-size: 17px;
+              line-height: 20px;
+            }
+            img {
+              bottom: -0px;
+            }
+          }
+        }
+        .news-cont-filter-right {
+          max-width: unset;
+          padding: 20px 30px 0;
+          form {
+            input[type="text"] {
+              padding-right: 16px;
+              height: 25px;
+              font-size: 16px;
+              line-height: 20px;
+            }
+            input[type="submit"] {
+              min-width: 22px;
+              min-height: 22px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

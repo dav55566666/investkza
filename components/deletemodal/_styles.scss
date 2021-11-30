@@ -1,0 +1,98 @@
+.deletemodal{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  overflow: auto;
+  background: rgba(0,0,0,0.57);
+  z-index: 20;
+  &::-webkit-scrollbar{
+    width: 0
+  }
+  .deletemodal-cont{
+    position: relative;
+    margin: 80px auto;
+    max-width: 854px;
+    width: 100%;
+    background: #FFF;
+    .clousmodal{
+      position: absolute;
+      background-color: unset;
+      border: unset;
+      background-image: url("/img/btnclous.png");
+      width: 37px;
+      height: 48px;
+      top: -5px;
+      cursor: pointer;
+      right: 30px;
+    }
+    .deletemodal-cont-top{
+      padding: 72px 16px 40px;
+      p{
+        max-width: 754px;
+        margin: 0 auto;
+        margin-top: 28px;
+        color: #000000;
+        font-family: Commissioner;
+        font-size: 17px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 30px;
+      }
+      h3{
+        max-width: 754px;
+        margin: 0 auto;
+        color: #464649;
+        font-family: Commissioner;
+        font-size: 23px;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 30px;
+      }
+    }
+    .deletemodal-cont-bottom{
+      width: 100%;
+      padding: 40px 16px;
+      .deletemodal-cont-bottom-box{
+        max-width: 754px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        button:nth-child(1){
+          width: 181px;
+          height: 54px;
+          color: #fefefe;
+          font-family: Commissioner;
+          font-size: 20px;
+          font-weight: 400;
+          font-style: normal;
+          letter-spacing: normal;
+          line-height: 30px;
+          border: unset;
+          cursor: pointer;
+          background: #599DBB;
+        }
+        button:nth-child(2){
+          background: #616163;
+          width: 181px;
+          height: 54px;
+          color: #fefefe;
+          font-family: Commissioner;
+          font-size: 20px;
+          font-weight: 400;
+          border: unset;
+          cursor: pointer;
+          font-style: normal;
+          letter-spacing: normal;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}
